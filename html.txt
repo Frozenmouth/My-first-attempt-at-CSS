@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>My first attempt at CSS</title>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<li>Home</li>
+					<li>About me</li>
+					<li>My links</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<h2>About me</h2>
+		</div>
+		<div id="left">
+		<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3d/3dbd3dc2e9a37d66b070a499945a693873caf99d_full.jpgA"/>
+		<p>Your average nerd getting into programming. Avid DotA 2 player.</p>
+		</div>
+		<div id="right">
+		<table>
+			<th colspan="3">My most played heroes</th>
+			<tr>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/lion-5bf8ac419c6bb9fdf0fa0254f8fd02146dacdd1f0a03aedb1df1ff68d5ac07db.jpg"/></td>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/tiny-162131e0df68104c9a66fc7a8eafb4fae3204122e4238dba3cd78507738a511c.jpg"/></td>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/ancient-apparition-f51db57a5e1ca4609fc30e195e71fbc220eb9dbe6e1db41b7d4cb431c91c7779.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/zeus-9446013c0817637fbb1e9fff58c5628698ad91ec3538d7ee9b29152f5d8d801b.jpg"/></td>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/drow-ranger-b239b50c9636ddb81e4160de306ee0a6f588aac60b5a4b665fb0b2babe70d702.jpg"/></td>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/spirit-breaker-470e70a9424000222678db0de34a1bc20c99dc0fac90ff32b584f711b2c6bf6d.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img id="bottom_left" src="https://fr.dotabuff.com/assets/heroes/faceless-void-fe33266138096e94d81a6e9af3cf1f36f9b731275ad9628e761f43458c57e5f2.jpg"/></td>
+				<td><img src="https://fr.dotabuff.com/assets/heroes/anti-mage-4ba3f74a18820e5a4f3e0439e21c8448ef156703547b8a54bf712156b593b8ba.jpg"></td>
+				<td><img id="bottom_right" src="https://fr.dotabuff.com/assets/heroes/spectre-ad6f8d34d395345497aaa4e865f3e3cd19dd6e568dac976c2b080d3ccbcff9a7.jpg"/></td>
+			</tr>
+		</table>
+		</div>
+		<div id="footer">
+			<div id="button">
+				<p>Check my <span class="bold">Dotabuff</span>!</p>
+			</div>
+		</div>
+	</body>
+</html>
